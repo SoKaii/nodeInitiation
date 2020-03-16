@@ -2,7 +2,8 @@
 [ESGI] Initiation à node.js
 
 How to make the app works locally : 
-    1) Do a "git clone" on the repository
+
+​    1) Do a "git clone" on the repository
 
 ​    2) Install npm : "npm install"
 
