@@ -6,8 +6,8 @@ app.get('/',function (req,res) {
     res.send("Hello World !")
 })
 
-app.get('/hello/:id',function (req,res) {
-    res.send("Bonjour, " + req.params.id)
+app.get('/hello',function (req,res) {
+    res.send("Bonjour, " + req.query.nom)
 })
 
 app.listen(PORT,function () {
