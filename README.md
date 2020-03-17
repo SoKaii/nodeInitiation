@@ -29,6 +29,8 @@ Endpoints :
 
 - POST : 
 
-  - \msg\ville -> Return "Nous sommes à Paris"
-  - \msg\météo -> Return "Il fait beau"
+  - /chat -> \msg\ville -> Return "Nous sommes à Paris"
+  - /chat -> \msg\météo -> Return "Il fait beau"
+  - /chat -> \msg\demain -> Return "Je ne connais pas demain" si aucun jour n'a été donné précédemment ou "<day>" si un jour de lendemain à été stocké
+  - /chat -> \msg\demain = <day> -> Return "Merci pour cette information"
 
