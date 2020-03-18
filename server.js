@@ -1,7 +1,7 @@
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
 
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb+srv://sokaii:sokaiipwd@chat-bot-hnjd7.mongodb.net/test?retryWrites=true&w=majority';
 const dbName = 'chat-bot';
 const express = require('express')
 var app = express();
