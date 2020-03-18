@@ -1,6 +1,6 @@
 const MongoClient = require('mongodb').MongoClient;
 const assert = require('assert');
-const url = process.env.DATABASE_URI || 'mongodb+srv://sokaii:sokaiipwd@chat-bot-hnjd7.mongodb.net/test?retryWrites=true&w=majority'
+const url = process.env.DATABASE_URL || 'mongodb+srv://sokaii:sokaiipwd@chat-bot-hnjd7.mongodb.net/test?retryWrites=true&w=majority'
 const dbName = 'chat-bot';
 const express = require('express')
 var app = express();
